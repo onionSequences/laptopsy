@@ -8,16 +8,16 @@
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 
   &:hover {
     cursor: pointer;
 
     & .background-image {
       transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     & .content {
@@ -46,12 +46,11 @@
 
   .content {
     height: 90px;
-    padding: 0 25px;
+    padding: 5px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
     background-color: white;
     opacity: 0.7;
     position: absolute;
@@ -64,8 +63,9 @@
     }
 
     .subtitle {
-      font-weight: lighter;
+      font-weight: 300;
       font-size: 16px;
+      margin: 0;
     }
   }
 }
