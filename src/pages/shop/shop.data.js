@@ -1,246 +1,176 @@
 const SHOP_DATA = [
   {
     id: 1,
-    title: "Hats",
-    routeName: "hats",
+    title: "Office Laptops",
+    routeName: "office-laptops",
     items: [
       {
         id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
-        price: 25,
+        name: "LENOVO Yoga 7 14ITL5 - 82BH00A5YA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/LENOVO-Yoga-7-14ITL5-82BH00A5YA-19.png",
+        price: 1660,
       },
       {
         id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-        price: 18,
+        name: "HP ZBook Fury 17 G7 2C9V1EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/HP-ZBook-Fury-17-G7-2C9V1EA-90.png",
+        price: 2900,
       },
       {
         id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-        price: 35,
+        name: "HP ProBook 450 G8 Notebook 150C7EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/HP-ProBook-450-G8-Notebook-150C7EA-64.png",
+        price: 950,
       },
       {
         id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
-        price: 25,
+        name: "HP 250 G8 Notebook 2X7Y1EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/HP-250-G8-Notebook-2X7Y1EA-39.png",
+        price: 850,
       },
       {
         id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        price: 18,
+        name: "LENOVO ThinkPad T15 Gen 2 20W4000FYA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/LENOVO-ThinkPad-T15-Gen-2-20W4000FYA-7.png",
+        price: 1710,
       },
       {
         id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-        price: 14,
+        name: "DELL XPS 13 9310 NOT16963",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/9478a0cdbe0a48be162037bc0890f380.png",
+        price: 3160,
       },
       {
         id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
-        price: 18,
+        name: "HP Elite Dragonfly - 8MK76EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/image5e8a5e7961e2a.png",
+        price: 1880,
       },
       {
         id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-        price: 14,
+        name: "HP Elite Dragonfly - 8MK78EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/image5e8a644e7e6bc.png",
+        price: 1950,
       },
       {
         id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-        price: 16,
+        name: "HP ProBook 440 G7 - 9HP65EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/HP-ProBook-440-G7-9HP65EA-17.png",
+        price: 1050,
       },
     ],
   },
   {
     id: 2,
-    title: "Sneakers",
-    routeName: "sneakers",
+    title: "Gaming Laptops",
+    routeName: "gaming-laptops",
     items: [
       {
         id: 1,
-        name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
-        price: 220,
+        name: "DELL G7 17 7700 NOT17104",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/DELL-G7-17-7700-NOT17104-.png",
+        price: 2735,
       },
       {
         id: 2,
-        name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
-        price: 280,
+        name: 'GIGABYTE AERO 17 KC 17.3" NOT17533',
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/GIGABYTE-Aero-17-KC-8EE6150SH-NOT17533-41.png",
+        price: 2310,
       },
       {
         id: 3,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
-        price: 110,
+        name: 'GIGABYTE G5 KC 15.6" NOT17532',
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/GIGABYTE-G5-KC-15.6-43.png",
+        price: 1450,
       },
       {
         id: 4,
-        name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
-        price: 160,
+        name: 'GIGABYTE AORUS 17G XC 17.3" NOT17534',
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/GIGABYTE-AORUS-17G-XC-17.3-14.png",
+        price: 2650,
       },
       {
         id: 5,
-        name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
-        price: 160,
+        name: "LENOVO Legion 7 15IMH05 - 81YT002GYA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/image5fbbd9835a8bf.png",
+        price: 2050,
       },
       {
         id: 6,
-        name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
-        price: 160,
+        name: "LENOVO Legion 7 15IMH05 81YT002QYA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/LENOVO-Legion-7-15IMH05-81YT002QYA-90.png",
+        price: 2400,
       },
       {
         id: 7,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
-        price: 190,
+        name: "LENOVO Legion 7 15IMH05 81YT002KYA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/LENOVO-Legion-7-15IMH05-81YT002KYA-18.png",
+        price: 2600,
       },
       {
         id: 8,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
-        price: 200,
+        name: "OMEN 15-dc1072nm - 9HG23EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/image5e57d269c1b7a.png",
+        price: 1450,
       },
     ],
   },
   {
     id: 3,
-    title: "Jackets",
-    routeName: "jackets",
+    title: "2-in-1 Laptops",
+    routeName: "2-in-1-laptops",
     items: [
       {
         id: 1,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        price: 125,
+        name: "HP Spectre x360 Convertible 14-ea0002nn 35B40EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/HP-Spectre-x360-Convertible-14-ea0002nn-35B40EA-47.png",
+        price: 2000,
       },
       {
         id: 2,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        price: 90,
+        name: "HP Spectre x360 Convertible 15-eb1008na 35B47EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/HP-Spectre-x360-Convertible-15-eb1008na-35B47EA--83.png",
+        price: 2100,
       },
       {
         id: 3,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        price: 90,
+        name: "DELL Inspiron 14 5406 NOT17059",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/DELL-Inspiron-14-5406-NOT17059-55.png",
+        price: 940,
       },
       {
         id: 4,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        price: 165,
+        name: "HP Pavilion x360 Convertible 14-dw0051nm - 2B5R5EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/image5fa3c49fd8b40.png",
+        price: 1280,
       },
       {
         id: 5,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185,
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Womens",
-    routeName: "womens",
-    items: [
-      {
-        id: 1,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
-        price: 25,
-      },
-      {
-        id: 2,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
-        price: 20,
-      },
-      {
-        id: 3,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
-        price: 80,
-      },
-      {
-        id: 4,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
-        price: 80,
-      },
-      {
-        id: 5,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-        price: 45,
-      },
-      {
-        id: 6,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-        price: 135,
-      },
-      {
-        id: 7,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
-        price: 20,
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Mens",
-    routeName: "mens",
-    items: [
-      {
-        id: 1,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        price: 325,
-      },
-      {
-        id: 2,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        price: 20,
-      },
-      {
-        id: 3,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
-        price: 25,
-      },
-      {
-        id: 4,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        price: 25,
-      },
-      {
-        id: 5,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40,
-      },
-      {
-        id: 6,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25,
+        name: "HP ENVY x360 Convert 13-ay0037nn 2B5Q4EA",
+        imageUrl:
+          "https://img.gigatron.rs/img/products/large/HP-ENVY-x360-Convert-13-ay0037nn-2B5Q4EA-85.png",
+        price: 1240,
       },
     ],
   },
